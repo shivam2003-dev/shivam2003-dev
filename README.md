@@ -1,7 +1,8 @@
-- 👋 Hi, I’m @shivam2003-dev
-- 👀 I’m interested in software development ,Data Science ,artificial Learning 
-- 🌱 I’m currently learning Machine Learning in Artifiacial learning  
-- 💞️ I’m looking to collaborate on nothing now....
+- 👋 Hi, I’m @shivam2003-dev(Shivam Kumar)
+- 👀 I’m interested in software development ,Data Science ,artificial Learning field
+- 
+- 🌱 I’m currently learning Machine Learning
+- 💞️ 
 - 📫 How to reach me? Just mail shivam.sk2003@gmail.com
 
 <!---
