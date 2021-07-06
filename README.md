@@ -44,7 +44,7 @@ You can click the Preview link to take a look at your changes.
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivam2003-dev&layout=compact&theme=radical" height="180rem"/>
 </a>
 <p align = "center">
-  <img src = "https://github-readme-streak-stats.herokuapp.com/?user=shivam2003-dev&theme=radical">
+  <img src = "https://github-readme-streak-stats.herokuapp.com/?user=shivam2003-dev&theme=radical" height="180rem"  />
 </p>
 
 
