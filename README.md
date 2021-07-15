@@ -14,7 +14,7 @@ You can click the Preview link to take a look at your changes.
 
 - 🌱 I’m currently an undergrad at <b>CCET ,Chandigarh</b> .<br>
 - 📖 Learning new stuff is my hobby .<br>
-- 👨‍💻 Fusing Coding to my DNA .<br>
+- 👨‍💻 Jack of all trade . <br>
 - 💻 Learning Hacking .<br>
 - 💬 Ask me anythin .Happy to help .<br>
 - 📫 connect with  me around the web:<br>
@@ -82,6 +82,7 @@ You can click the Preview link to take a look at your changes.
 <img alt="Windows 10" src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 <img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" /> &nbsp;
 <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+
 
 
 
