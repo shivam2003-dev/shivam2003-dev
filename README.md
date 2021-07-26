@@ -7,7 +7,7 @@ You can click the Preview link to take a look at your changes.
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shivam2003-dev&label=Profile%20views&color=0e75b6&style=flat" alt="shivam" /> </p>
 
-<h3 align="center">Nerds who love coding and Hacking</h3>
+<h3 align="center">Love coding and Hacking</h3>
 
 
 <img align="right" height="250px" width="400px" alt="shivam octocat" src="https://www.mcgilltribune.com/wp-content/uploads/2020/02/hacker.png" >
