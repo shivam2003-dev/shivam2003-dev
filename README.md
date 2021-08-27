@@ -30,16 +30,38 @@ You can click the Preview link to take a look at your changes.
 
 ### &#x1f4c8; GitHub Stats
 <hr>
-
-<a href="https://github.com/shivam2003-dev/">
+<table>
+  <tr>
+<td><a href="https://github.com/shivam2003-dev/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=shivam2003-dev&theme=radical&show_icons=true&count_private=true&include_all_commits=true" height="180rem" />
-</a>
-<a href="https://github.com/shivam2003-dev/">
+  </a></td>
+    
+<td> 
+  <a href="https://github.com/shivam2003-dev/">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivam2003-dev&layout=compact&theme=radical" height="180rem"/>
-</a>
-<p >
+  </a></td>
+    
+  </tr>
+  </table>
+    
+    
+    
+<p align="center" >
   <img src = "https://github-readme-streak-stats.herokuapp.com/?user=shivam2003-dev&theme=radical" height="180rem"  />
 </p>
+
+<!-- <-- <table>
+  <tr>
+    <td><img src="https://github-readme-stats.vercel.app/api?username=shivam2003-dev&show_icons=true&theme=dark&locale=en" alt="shivam2003-dev" /></td>
+    <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=shivam2003-dev&show_icons=true&theme=dark&locale=en&layout=compact" alt="shivam2003-dev" /></td>
+  </tr>
+</table>
+
+<div align="center">
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shivam2003-dev&theme=dark" alt="shivam2003-dev" /></p>
+  </div> -->
+
+ [![shivam2003-dev's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=shivam2003-dev&theme=xcode)](https://git.io/shivam2003-dev)
 
 
 ### 🛠 &nbsp;Tech Stack
