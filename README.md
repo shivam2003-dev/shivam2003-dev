@@ -72,6 +72,7 @@ You can click the Preview link to take a look at your changes.
     </a>
 </div>
 <hr>
+
 ### 🛠 &nbsp;Tech Stack
 <!--
 ![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&logoColor=00599C)&nbsp;
