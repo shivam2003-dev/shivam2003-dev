@@ -63,7 +63,15 @@ You can click the Preview link to take a look at your changes.
 
  [![shivam2003-dev's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=shivam2003-dev&theme=xcode)](https://git.io/shivam2003-dev)
 
+<hr>
+<h3> Github Profile  Trophy </h3>
 
+<div align=center>
+    <a href="https://github.com/ryo-ma/github-profile-trophy" title="Go to Source">
+      <img align="center" width=100% src="https://github-profile-trophy.vercel.app/?username=shivam2003-dev&theme=onedark&column=9" alt="zumrudu-anka" />
+    </a>
+</div>
+<hr>
 ### 🛠 &nbsp;Tech Stack
 <!--
 ![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&logoColor=00599C)&nbsp;
@@ -128,7 +136,6 @@ You can click the Preview link to take a look at your changes.
 <h2 align="center">My work is mostly realted to Cyber-Security and Web-Development</h2>
 <h2 align="center"> 👨‍💻  Check out my repos to view some of my work   👨‍💻</h2>
 -->
-
 
 
                                                                                         
