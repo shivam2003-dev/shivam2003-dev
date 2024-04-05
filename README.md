@@ -20,7 +20,7 @@ You can click the Preview link to take a look at your changes.
 - 📫 connect with  me around the web:<br>
 
 <a href="https://www.linkedin.com/in/shivam-kumar2003/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://www.instagram.com/shivam__kumar_2003/" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></a>
+
 <a href="mailto:shivam3002@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a> &nbsp;
 </div>
 
