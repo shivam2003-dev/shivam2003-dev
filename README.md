@@ -4,9 +4,9 @@ You can click the Preview link to take a look at your changes.
 --->
 
 <h1 align="center">Yo ✌️, I'm Shivam</h1>
-
+<!---
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shivam2003-dev&label=Profile%20views&color=0e75b6&style=flat" alt="shivam" /> </p>
-
+--->
 <h3 align="center">Love coding and Hacking</h3>
 
 
