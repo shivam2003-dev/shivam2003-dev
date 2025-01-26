@@ -3,28 +3,34 @@ shivam2003-dev/shivam2003-dev is a ✨ special ✨ repository because its `READM
 You can click the Preview link to take a look at your changes.
 --->
 
-<h1 align="center">Yo ✌️, I'm Shivam</h1>
-<!---
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shivam2003-dev&label=Profile%20views&color=0e75b6&style=flat" alt="shivam" /> </p>
---->
-<h3 align="center">Love coding and Hacking</h3>
+# 👋 Hello, I'm Shivam!  
 
+### 🚀 DevSecOps Engineer | **Cloud Enthusiast**  
+🌟 Passionate about **building secure CI/CD pipelines**, **automation**, and **cloud-native architectures**!  
+💡 I thrive on solving complex problems with simple, elegant solutions.
 
-<img align="right" height="250px" width="400px" alt="shivam octocat" src="https://www.mcgilltribune.com/wp-content/uploads/2020/02/hacker.png" >
+---
 
-- 🌱 I’m currently an undergrad at <b>CCET ,Chandigarh</b> .<br>
-- 📖 Learning new stuff is my hobby .<br>
-- 👨‍💻 Jack of all trade . <br>
-- 💻 Learning Hacking .<br>
-- 💬 Ask me anythin .Happy to help .<br>
-- 📫 connect with  me around the web:<br>
+## 🛠️ **What I Do**  
+- 🔒 DevSecOps Advocate: Ensuring security without compromising speed.  
+- 🖥️ Automating infrastructure on **AWS | Azure | GCP | OCI**.  
+- 📊 Building **APM solutions** for enhanced visibility and performance.  
+- 🛡️ Contributing to **CNCF projects** (on my way 🚀).  
+- 📦 Managing logs, RDP, PostgreSQL clusters, and more.
 
-<a href="https://www.linkedin.com/in/shivam-kumar2003/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+---
 
-<a href="mailto:shivam3002@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a> &nbsp;
-</div>
+### 🌟 **Some of My Highlights**  
+- 🎯 Automated EMQX clustering & OpenVPN setups.  
+- 📖 Teaching **CS fundamentals** to diverse professionals.  
+- 🏌️‍♂️ Aspiring Golfer learning the perfect swing!  
+- ✈️ Adventurer: Traveling   
 
+---
 
+## 🎯 **Let's Build Together!**  
+💌 Have a project in mind?  
+📫 Reach me at: **shivam.sk2003@gmail.com**
 
 
 ### &#x1f4c8; GitHub Stats
@@ -44,11 +50,6 @@ You can click the Preview link to take a look at your changes.
   </table>
     
     
-    
-<p align="center" >
-  <img src = "https://github-readme-streak-stats.herokuapp.com/?user=shivam2003-dev&theme=radical" height="180rem"  />
-</p>
-
 <!-- <-- <table>
   <tr>
     <td><img src="https://github-readme-stats.vercel.app/api?username=shivam2003-dev&show_icons=true&theme=dark&locale=en" alt="shivam2003-dev" /></td>
@@ -59,8 +60,6 @@ You can click the Preview link to take a look at your changes.
 <div align="center">
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shivam2003-dev&theme=dark" alt="shivam2003-dev" /></p>
   </div> -->
-
- [![shivam2003-dev's GitHub activity graph](https://activity-graph.herokuapp.com/graph?username=shivam2003-dev&theme=xcode)](https://git.io/shivam2003-dev)
 
 <hr>
 <h3> Github Profile  Trophy </h3>
