@@ -31,7 +31,7 @@ role: Site Reliability Engineer II
 company: Kimbal Technologies
 experience: 1.5+ Years
 location: Delhi, India 🇮🇳
-tenure: Jun 2024 - Present
+tenure: Jan 2024 - Present
 
 expertise:
   - Site Reliability Engineering
