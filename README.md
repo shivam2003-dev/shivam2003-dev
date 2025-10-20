@@ -333,25 +333,6 @@ Multi-environment security monitoring
 
 ## 📈 GitHub Analytics
 
-<div align="center">
-
-### 📊 Contribution Stats
-
-<table>
-<tr>
-<td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api?username=shivam2003-dev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&text_color=C9D1D9&rank_icon=github" alt="GitHub Stats" />
-
-</td>
-<td width="50%">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shivam2003-dev&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=8B5CF6&currStreakLabel=8B5CF6&sideNums=C9D1D9&sideLabels=C9D1D9&dates=C9D1D9" alt="GitHub Streak" />
-
-</td>
-</tr>
-</table>
-
 ### 📊 Contribution Activity
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shivam2003-dev&custom_title=📈%20Contribution%20Activity%20Graph&bg_color=0D1117&color=6366F1&line=8B5CF6&point=C9D1D9&area_color=8B5CF6&area=true&hide_border=true&height=300" alt="Contribution Graph" />
