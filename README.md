@@ -373,12 +373,33 @@ Multi-environment security monitoring
 
 <div align="center">
 
-<!-- Add your pinned repos or featured projects here -->
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=shivam2003-dev&repo=shivam2003-dev&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/shivam2003-dev/shivam2003-dev)
+<!-- Featured GitHub Repositories -->
+<a href="https://github.com/shivam2003-dev/devops_homelab">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=shivam2003-dev&repo=devops_homelab&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&text_color=C9D1D9" />
+</a>
+
+<a href="https://github.com/shivam2003-dev/whatsapp_summary_bot">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=shivam2003-dev&repo=whatsapp_summary_bot&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&text_color=C9D1D9" />
+</a>
+
+<a href="https://github.com/shivam2003-dev/flamegraph">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=shivam2003-dev&repo=flamegraph&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=8B5CF6&text_color=C9D1D9" />
+</a>
 
 </div>
 
 ### 🚀 Project Highlights
+
+#### 🏠 [DevOps HomeLab](https://github.com/shivam2003-dev/devops_homelab)
+Complete home lab infrastructure setup for learning and experimenting with DevOps tools and practices. Features containerization, orchestration, and monitoring solutions.
+
+#### 💬 [WhatsApp Summary Bot](https://github.com/shivam2003-dev/whatsapp_summary_bot)
+Intelligent bot that automatically summarizes WhatsApp conversations using AI/ML techniques. Built with automation and natural language processing capabilities.
+
+#### 🔥 [Flamegraph](https://github.com/shivam2003-dev/flamegraph)
+Performance profiling and visualization tool for analyzing system bottlenecks and optimizing application performance. Essential for SRE troubleshooting.
+
+### � Work Projects & Achievements
 
 - **🔧 Infrastructure Automation**: Terraform modules for AWS infrastructure provisioning and management
 - **🐳 GitOps with ArgoCD**: Declarative Kubernetes deployments for 10+ microservices
