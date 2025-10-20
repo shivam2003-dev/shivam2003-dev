@@ -120,7 +120,7 @@ graph TB
     E --> F[Push to Nexus]
     F --> G[ArgoCD GitOps]
     G --> H[Kubernetes EKS]
-    H --> I[Zabbix Monitoring]
+    H --> I[ Monitoring]
     I --> J[Multi-Level Alerts<br/>Teams/PagerDuty/Email]
     
     style A fill:#4ade80
