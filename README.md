@@ -352,10 +352,6 @@ Multi-environment security monitoring
 </tr>
 </table>
 
-### 💻 Most Used Languages
-
-<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivam2003-dev&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9&langs_count=10&hide=html,css" alt="Top Languages" />
-
 ### 📊 Contribution Activity
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shivam2003-dev&custom_title=📈%20Contribution%20Activity%20Graph&bg_color=0D1117&color=6366F1&line=8B5CF6&point=C9D1D9&area_color=8B5CF6&area=true&hide_border=true&height=300" alt="Contribution Graph" />
