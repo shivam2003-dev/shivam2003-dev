@@ -27,14 +27,14 @@
 
 ```yaml
 name: Shivam Kumar
-role: Site Reliability Engineer II
+role: DevOps Engineer II
 company: Kimbal Technologies
-experience: 1.5+ Years
+experience: 2+ Years
 location: Delhi, India 🇮🇳
 tenure: Jan 2024 - Present
 
 expertise:
-  - Site Reliability Engineering
+  - DevOps Engineer
   - Cloud-Native Architecture
   - GitOps & Kubernetes
   - Infrastructure Automation
@@ -61,7 +61,7 @@ mission: |
 
 <div align="center">
   
-  ### 🏢 Kimbal Technologies | Site Reliability Engineer
+  ### 🏢 Kimbal Technologies | DevOps Engineer
   **Jun 2024 - Present (1 yr 10 mos) | Delhi, India**
   
 </div>
@@ -86,13 +86,13 @@ mission: |
 
 ### 🚀 Current Responsibilities
 
-**Site Reliability Engineer II (Jun 2025 - Present)**
+**DevOps Engineer II (Jun 2025 - Present)**
 - 🔔 Integrated AWS SNS with internal services for real-time alerts
 - 📊 Multi-level alerting in Zabbix (Email, Teams, PagerDuty)
 - 🤖 AWS Lambda automation via EventBridge
 - 💾 Automated PostgreSQL backups to S3 with Ansible
 
-**Site Reliability Engineer (Jun 2024 - Jun 2025)**
+**DevOps Engineer (Jun 2024 - Jun 2025)**
 - ☸️ Kubernetes, Docker, Helm, ArgoCD deployments
 - 🏗️ Terraform module development for IaC
 - 🔐 HashiCorp Vault administration
@@ -437,7 +437,7 @@ Performance profiling and visualization tool for analyzing system bottlenecks an
 
 ```ascii
 ╔═══════════════════════════════════════════════════════════════╗
-║  "Site Reliability Engineering is about building systems      ║
+║  "DevOps Engineering is about building systems      ║
 ║   that are reliable, scalable, and maintainable."             ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
@@ -471,7 +471,7 @@ Performance profiling and visualization tool for analyzing system bottlenecks an
 
 ```javascript
 const shivam = {
-    role: "Site Reliability Engineer II @ Kimbal Technologies",
+    role: "DevOps Engineer II @ Kimbal Technologies",
     learning: ["Advanced Kubernetes Patterns", "GitOps Best Practices", "AWS Solutions Architecture"],
     working_on: [
         "AWS Lambda automation with EventBridge",
