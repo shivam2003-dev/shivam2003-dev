@@ -6,7 +6,7 @@
   <br/>
   
   <!-- Animated Wave Banner -->
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=SRE%20%7C%20Cloud%20%7C%20GitOps&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=DevOps%20%7C%20Cloud%20%7C%20GitOps&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
   
 </div>
 
@@ -176,7 +176,7 @@ Multi-environment security monitoring
 ## 💻 Core Competencies
 
 <details open>
-<summary><b>🔧 SRE & Automation</b></summary>
+<summary><b>🔧 DevOps & Automation</b></summary>
 <br>
 
 **Infrastructure Automation:**
@@ -416,7 +416,7 @@ Complete home lab infrastructure setup for learning and experimenting with DevOp
 Intelligent bot that automatically summarizes WhatsApp conversations using AI/ML techniques. Built with automation and natural language processing capabilities.
 
 #### 🔥 [Flamegraph](https://github.com/shivam2003-dev/flamegraph)
-Performance profiling and visualization tool for analyzing system bottlenecks and optimizing application performance. Essential for SRE troubleshooting.
+Performance profiling and visualization tool for analyzing system bottlenecks and optimizing application performance. Essential for DevOps troubleshooting.
 
 ### � Work Projects & Achievements
 
@@ -494,7 +494,7 @@ const shivam = {
 
 ```yaml
 open_for:
-  - SRE Consulting
+  - DevOps Consulting
   - Cloud Infrastructure Reviews
   - Technical Mentorship
   - Open Source Collaborations
