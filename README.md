@@ -1,7 +1,7 @@
 <div align="center">
   
   <!-- Animated Header with Typing Effect -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=6366F1&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B%2C+I'm+Shivam+Kumar;Site+Reliability+Engineer+%40+Kimbal+Technologies;1.5%2B+Years+Building+Scalable+Infrastructure;Kubernetes+%E2%98%B8%EF%B8%8F+%7C+Terraform+%7C+ArgoCD+%F0%9F%9A%80;GitOps+%7C+Cloud+Native+%7C+Automation+%F0%9F%94%A7" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=6366F1&center=true&vCenter=true&width=940&lines=Hi+%F0%9F%91%8B%2C+I'm+Shivam+Kumar;1.5%2B+Years+Building+Scalable+Infrastructure;Kubernetes+%E2%98%B8%EF%B8%8F+%7C+Terraform+%7C+ArgoCD+%F0%9F%9A%80;GitOps+%7C+Cloud+Native+%7C+Automation+%F0%9F%94%A7" alt="Typing SVG" />
   
   <br/>
   
