@@ -107,30 +107,6 @@ mission: |
 
 ---
 
-## 💡 Technical Expertise & Impact
-
-<div align="center">
-
-```mermaid
-graph TB
-    A[Source Code] --> B[GitHub Actions CI]
-    B --> C[Build & Test]
-    C --> D[Security Scan<br/>SonarQube/Wazuh]
-    D --> E[Docker Build]
-    E --> F[Push to Nexus]
-    F --> G[ArgoCD GitOps]
-    G --> H[Kubernetes EKS]
-    H --> I[ Monitoring]
-    I --> J[Multi-Level Alerts<br/>Teams/PagerDuty/Email]
-    
-    style A fill:#4ade80
-    style G fill:#8b5cf6
-    style H fill:#3b82f6
-    style J fill:#ef4444
-```
-
-</div>
-
 ### 🎯 Real-World Impact
 
 <table>
