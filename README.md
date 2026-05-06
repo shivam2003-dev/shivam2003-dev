@@ -4,11 +4,11 @@
 
 <div align="center">
 
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=SHIVAM%20KUMAR&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=35&desc=I%20turn%20coffee%20into%20infrastructure&descSize=18&descAlignY=55"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,50:312e81,100:0ea5e9&height=210&section=header&text=SHIVAM%20KUMAR&fontSize=56&fontColor=ffffff&animation=scaleIn&fontAlignY=38&desc=Cloud-native%20systems%20%7C%20GitOps%20%7C%20Automation&descSize=20&descAlignY=60&textBg=true"/>
 
   <br/>
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%E2%98%B8%EF%B8%8F+Kubernetes+%C2%B7+%F0%9F%8C%8D+Terraform+%C2%B7+%F0%9F%94%84+GitOps;%F0%9F%94%90+Security+%C2%B7+%E2%98%81%EF%B8%8F+Cloud+Native+%C2%B7+%F0%9F%A4%96+Automation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3600&pause=1400&color=BF91F3&center=true&vCenter=true&repeat=true&width=820&height=56&letterSpacing=0.8px&lines=Kubernetes+%C2%B7+Terraform+%C2%B7+AWS+%C2%B7+ArgoCD;Observability+%C2%B7+Security+%C2%B7+Platform+Thinking" alt="Typing SVG" />
 
 </div>
 
@@ -39,21 +39,21 @@ fn main() {
     let shivam = Human {
         location:  "Delhi, India 🇮🇳",
         pronouns:  "he/him",
-        superpower: "Making servers behave",
+    superpower: "Turning moving parts into reliable systems",
         
         passions: vec![
-            "Cloud-native architecture",
-            "GitOps everything",
-            "Breaking things in staging so prod stays calm",
-            "Teaching CS to the next generation",
+      "Designing resilient cloud-native platforms",
+      "GitOps workflows that stay boring in production",
+      "Automation that removes repetitive ops work",
+      "Sharing practical CS and DevOps knowledge",
         ],
         
         hobbies: vec!["Golf 🏌️", "Traveling ✈️", "Teaching 📖"],
         
-        motto: "Automate it. Monitor it. Secure it. Ship it.",
+    motto: "Automate early. Observe deeply. Keep systems calm.",
         
-        fun_fact: "I mass-produce pipelines and break them 
-                    so you don't have to.",
+    fun_fact: "I like infrastructure that is quiet, predictable,
+           and slightly over-documented.",
     };
 }
 ```
@@ -72,10 +72,10 @@ fn main() {
 ### Quick Stats
 
 ```
-  Clusters wrangled   ███████████  many
-  Pipelines shipped   ████████████ 10+
-  Infra automated     █████████    100+ tasks
-  Coffee consumed     █████████████████ ∞
+  Kubernetes          ████████████ production-ready
+  GitOps              ███████████  delivery-first
+  Automation          ████████████ heavy user
+  Reliability         ███████████  always the goal
 ```
 
 </div>
@@ -86,9 +86,9 @@ fn main() {
 
 ---
 
-## 🧰 Toolbox
+## 🧰 What I Work With
 
-> *"Use the right tool. Or write one."*
+> Build simple systems. Automate the repeated work. Keep the failure modes obvious.
 
 <div align="center">
 
@@ -149,7 +149,7 @@ fn main() {
 
 ---
 
-## 🔬 Projects I'm Proud Of
+## 🔬 Things I’ve Built
 
 <div align="center">
 
@@ -170,10 +170,10 @@ fn main() {
 
 | Project | What & Why |
 |---------|-----------|
-| **[DevOps HomeLab](https://github.com/shivam2003-dev/devops_homelab)** | My personal playground — containerization, orchestration, monitoring, and chaos all under one roof. |
-| **[WhatsApp Summary Bot](https://github.com/shivam2003-dev/whatsapp_summary_bot)** | AI-powered bot that digests chat chaos into crisp summaries. NLP + automation = fewer unread messages. |
-| **[Flamegraph](https://github.com/shivam2003-dev/flamegraph)** | Perf profiling & visualization for hunting bottlenecks. Because "it's slow" is not a root cause. |
-| **[Dotfiles](https://github.com/highlevel-performance/dotfile)** | My terminal setup, configs, and productivity shortcuts. One `git clone` from a perfect workstation. |
+| **[DevOps HomeLab](https://github.com/shivam2003-dev/devops_homelab)** | A hands-on lab for testing infra ideas, deployment patterns, and observability workflows without guesswork. |
+| **[WhatsApp Summary Bot](https://github.com/shivam2003-dev/whatsapp_summary_bot)** | A small AI workflow that turns noisy conversations into usable summaries and action points. |
+| **[Flamegraph](https://github.com/shivam2003-dev/flamegraph)** | A profiling-first project for understanding where performance actually goes instead of guessing. |
+| **[Dotfiles](https://github.com/highlevel-performance/dotfile)** | Shell and editor setup tuned for speed, repeatability, and fewer context switches during real work. |
 
 ---
 
@@ -200,19 +200,19 @@ fn main() {
 
 ---
 
-## 🧠 What Keeps Me Up at Night
+## 🧠 Currently Interested In
 
 <div align="center">
 
 ```
               ┌─────────────────────────────────────────┐
-              │  Currently obsessing over:               │
+              │  Current focus areas:                    │
               │                                         │
-              │  → Platform Engineering                  │
-              │  → FinOps & cloud cost sanity            │
-              │  → Service Mesh patterns                 │
-              │  → Advanced K8s scheduling               │
-              │  → Making Terraform modules beautiful    │
+              │  → Platform engineering                  │
+              │  → FinOps and cost-aware infra           │
+              │  → Service mesh tradeoffs                │
+              │  → Advanced Kubernetes operations        │
+              │  → Cleaner Terraform module design       │
               └─────────────────────────────────────────┘
 ```
 
@@ -224,7 +224,7 @@ fn main() {
 
 <div align="center">
 
-I'm always up for a conversation about infrastructure, open source, or why YAML is both a blessing and a curse.
+I like conversations about infrastructure, GitOps, platform design, open source, and practical automation.
 
 <br/><br/>
 
@@ -238,8 +238,8 @@ I'm always up for a conversation about infrastructure, open source, or why YAML 
 ```
 open_for:
   - Open Source Collaborations
-  - DevOps Consulting & Mentorship
-  - Speaking at Meetups & Conferences
+  - DevOps Consulting
+  - Technical Mentorship
   - Interesting side projects
   
 response_time: < 24 hours ⚡
@@ -251,11 +251,11 @@ response_time: < 24 hours ⚡
 
 <div align="center">
 
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=100:0f172a,50:312e81,0:0ea5e9&height=110&section=footer"/>
 
   <br/>
 
-  <sub>Built with `vim`, bad posture, and mass quantities of coffee &nbsp;☕</sub>
+  <sub>Built with vim, shell history, and a suspicious amount of coffee.</sub>
 
 </div>
 
