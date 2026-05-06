@@ -4,7 +4,7 @@
 
 <div align="center">
 
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20&height=200&section=header&text=SHIVAM%20KUMAR&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=I%20turn%20coffee%20into%20infrastructure&descSize=18&descAlignY=55"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=SHIVAM%20KUMAR&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=35&desc=I%20turn%20coffee%20into%20infrastructure&descSize=18&descAlignY=55"/>
 
   <br/>
 
@@ -251,7 +251,7 @@ response_time: < 24 hours ⚡
 
 <div align="center">
 
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
 
   <br/>
 
