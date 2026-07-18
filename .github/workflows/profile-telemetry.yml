@@ -1,0 +1,38 @@
+name: Refresh profile telemetry
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-telemetry
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: Render current GitHub activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_LOGIN: shivam2003-dev
+        run: node scripts/render-activity.mjs
+
+      - name: Commit refreshed assets when data changes
+        run: |
+          if git diff --quiet -- assets/activity.svg assets/activity-mobile.svg; then
+            echo "Profile telemetry is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity.svg assets/activity-mobile.svg
+          git commit -m "chore: refresh profile telemetry"
+          git push

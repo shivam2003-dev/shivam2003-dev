@@ -23,52 +23,64 @@
 
 <br />
 
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <h3>8× faster</h3>
-      <sub>DEPLOYMENTS · 2H → 15M</sub>
-    </td>
-    <td width="33%" align="center">
-      <h3>60% lower</h3>
-      <sub>INCIDENT MTTR</sub>
-    </td>
-    <td width="33%" align="center">
-      <h3>1M+ / sec</h3>
-      <sub>KAFKA MESSAGES OPERATED</sub>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/proof-mobile.svg" />
+  <img src="./assets/proof.svg" width="100%" alt="Production outcomes: deployments improved from two hours to fifteen minutes, incident MTTR fell by 60 percent, and Kafka systems operated above one million messages per second." />
+</picture>
 
 <br />
 
 ## Selected work
 
-### 01 / [LokSetu](https://github.com/shivam2003-dev/LokSetu)
+<a href="https://github.com/shivam2003-dev/LokSetu">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/project-loksetu-mobile.svg" />
+    <img src="./assets/project-loksetu.svg" width="100%" alt="LokSetu — AI constituency intelligence that turns civic and public signals into ranked priorities and action workflows." />
+  </picture>
+</a>
 
-**AI constituency intelligence for public decision-makers.** Combines citizen input, official datasets, and public signals to surface ranked local needs, demand hotspots, and action-ready workflows.
+<a href="https://prepare.shivam2003.com/">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/project-opsquest-mobile.svg" />
+    <img src="./assets/project-opsquest.svg" width="100%" alt="OpsQuest — incident-driven DevOps learning through diagnosis, recovery, and verification." />
+  </picture>
+</a>
 
-`TypeScript` `GCP` `RAG` `Decision systems` · **[Explore the system →](https://github.com/shivam2003-dev/LokSetu)**
+<a href="https://ml.shivam2003.com/">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/project-ml-journey-mobile.svg" />
+    <img src="./assets/project-ml-journey.svg" width="100%" alt="ML Learning Journey — twenty-six guided builds connecting mathematics, model behavior, and implementation." />
+  </picture>
+</a>
 
----
-
-### 02 / [OpsQuest](https://prepare.shivam2003.com/)
-
-**Learn DevOps by debugging production.** Interactive incidents, terminals, and capstones turn Linux, Kubernetes, cloud, and delivery concepts into operational judgment.
-
-`DevOps` `Kubernetes` `Interactive learning` · **[Enter OpsQuest →](https://prepare.shivam2003.com/)**
-
----
-
-### 03 / [ML Learning Journey](https://ml.shivam2003.com/)
-
-**Machine learning, built from first principles.** A 26-project curriculum connecting mathematical foundations, model behavior, and guided implementation—not passive tutorials.
-
-`Machine learning` `26 projects` `Guided builds` · **[Start building →](https://ml.shivam2003.com/)**
+<p align="center">
+  <a href="https://github.com/shivam2003-dev/LokSetu"><b>Explore LokSetu ↗</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://prepare.shivam2003.com/"><b>Enter OpsQuest ↗</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://ml.shivam2003.com/"><b>Start ML Journey ↗</b></a>
+</p>
 
 <br />
 
-## The work behind the work
+## Build signal
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/activity-mobile.svg" />
+  <img src="./assets/activity.svg" width="100%" alt="Current GitHub activity totals and a contribution heatmap covering the last twelve months." />
+</picture>
+
+<p align="center">
+  <sub>SELF-OWNED TELEMETRY · GENERATED FROM GITHUB DATA · REFRESHED WEEKLY</sub>
+</p>
+
+<br />
+
+## Operating range
+
+<details>
+  <summary><b>Open the capability map</b> · platform engineering, reliability, data, AI, and delivery security</summary>
+  <br />
 
 **Run dependable platforms** — GCP, AWS, OCI, on-premises infrastructure, Kubernetes, Docker, Terraform, Ansible, GitHub Actions, cloud networking, and Python/Go automation.
 
@@ -79,6 +91,8 @@
 **Secure the delivery path** — GitHub Actions, CodePipeline, Kyverno, dependency and supply-chain security, policy as code, SPIFFE, and OpenFGA.
 
 <sub>CURRENT FRONTIER · WASM-powered containers · vLLM / llm-d · agentic AI security · AI infrastructure on Kubernetes</sub>
+
+</details>
 
 <br />
 

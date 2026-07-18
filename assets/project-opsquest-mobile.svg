@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+  <title id="title">OpsQuest — incident-driven DevOps learning</title>
+  <desc id="desc">An incident moves from alert through diagnosis and recovery to a verified, stable system.</desc>
+  <defs>
+    <filter id="signalGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <pattern id="microGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" class="grid-line" />
+    </pattern>
+    <clipPath id="frameClip"><rect width="720" height="400" rx="24" /></clipPath>
+    <path id="incidentTrace" d="M66 308H86L100 276L114 326L132 290L150 316L168 300L188 308H654" />
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .bg { fill: #080A0C; } .panel { fill: #101316; } .panel-2 { fill: #15191D; }
+      .ink { fill: #F3F0E8; } .muted { fill: #89939D; }
+      .faint-stroke { stroke: #30363C; } .node-stroke { stroke: #4A535C; } .grid-line { stroke: #1A2025; }
+      .signal { fill: #B8F34A; } .signal-stroke { stroke: #B8F34A; }
+      .safety { fill: #FF6B35; } .safety-stroke { stroke: #FF6B35; }
+      .route-flow { animation: routeFlow 2.5s linear infinite; } .static-fallback { display: none; }
+      @keyframes routeFlow { to { stroke-dashoffset: -28; } }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #F3F0E8; } .panel { fill: #E8E3D8; } .panel-2 { fill: #DED8CA; }
+        .ink { fill: #111315; } .muted { fill: #5F6870; } .faint-stroke { stroke: #C8C0B1; }
+        .node-stroke { stroke: #9E978A; } .grid-line { stroke: #DDD7CB; }
+        .signal { fill: #456600; } .signal-stroke { stroke: #456600; }
+        .safety { fill: #C7461D; } .safety-stroke { stroke: #C7461D; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none !important; } .route-flow { animation: none !important; }
+        .static-fallback { display: inline !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="720" height="400" rx="24" class="bg" />
+  <g clip-path="url(#frameClip)"><rect x="28" y="174" width="664" height="178" rx="20" fill="url(#microGrid)" /></g>
+  <text x="40" y="43" class="safety mono" font-size="16" font-weight="700" letter-spacing="1.7">02 / INCIDENT-DRIVEN LEARNING</text>
+  <text x="40" y="94" class="ink" font-size="42" font-weight="700" letter-spacing="-1.3">OpsQuest</text>
+  <text x="40" y="132" class="muted" font-size="22">Build production judgment by diagnosing</text>
+  <text x="40" y="160" class="muted" font-size="22">incidents, recovering systems, and shipping fixes.</text>
+
+  <rect x="40" y="184" width="640" height="154" rx="18" class="panel faint-stroke" />
+  <text x="62" y="209" class="muted mono" font-size="13" font-weight="700" letter-spacing="1.3">INCIDENT RESPONSE TRACE</text>
+  <rect x="586" y="195" width="70" height="20" rx="10" class="signal" opacity=".12" />
+  <text x="621" y="209" text-anchor="middle" class="signal mono" font-size="10" font-weight="700">VERIFIED</text>
+
+  <line x1="82" y1="250" x2="638" y2="250" class="faint-stroke" stroke-width="2" />
+  <line x1="82" y1="250" x2="638" y2="250" class="signal-stroke route-flow" stroke-dasharray="5 11" opacity=".28" />
+  <g>
+    <rect x="70" y="238" width="24" height="24" rx="6" class="panel-2 safety-stroke" stroke-width="2" />
+    <circle cx="266" cy="250" r="13" class="panel-2 node-stroke" stroke-width="2" />
+    <path d="M450 236L464 250L450 264L436 250Z" class="panel-2 node-stroke" stroke-width="2" />
+    <circle cx="638" cy="250" r="13" class="panel-2 signal-stroke" stroke-width="2" />
+    <circle cx="638" cy="250" r="5" class="signal" />
+    <text x="82" y="278" text-anchor="middle" class="safety mono" font-size="11" font-weight="700">ALERT</text>
+    <text x="266" y="278" text-anchor="middle" class="muted mono" font-size="11">DIAGNOSE</text>
+    <text x="450" y="278" text-anchor="middle" class="muted mono" font-size="11">RECOVER</text>
+    <text x="638" y="278" text-anchor="middle" class="signal mono" font-size="11" font-weight="700">VERIFY</text>
+  </g>
+  <use href="#incidentTrace" fill="none" class="faint-stroke" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <line x1="188" y1="308" x2="654" y2="308" class="signal-stroke" opacity=".18" stroke-width="4" stroke-linecap="round" />
+
+  <g class="motion">
+    <circle r="6" class="safety" filter="url(#signalGlow)" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.66;.73;1" dur="9s" repeatCount="indefinite" />
+      <animateMotion path="M82 250H638" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="82" cy="250" r="14" fill="none" class="safety-stroke" opacity="0">
+      <animate attributeName="r" values="14;32" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values=".75;0;0" keyTimes="0;.12;1" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="266" cy="250" r="14" fill="none" class="signal-stroke" opacity="0">
+      <animate attributeName="r" values="14;32" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;.7;0;0" keyTimes="0;.22;.28;.4;1" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="450" cy="250" r="15" fill="none" class="signal-stroke" opacity="0">
+      <animate attributeName="r" values="15;33" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;.7;0;0" keyTimes="0;.43;.49;.61;1" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="638" cy="250" r="14" fill="none" class="signal-stroke" opacity="0">
+      <animate attributeName="r" values="14;34" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0;.75;0;0" keyTimes="0;.64;.7;.84;1" dur="9s" repeatCount="indefinite" />
+    </circle>
+    <use href="#incidentTrace" fill="none" class="signal-stroke" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">
+      <animate attributeName="stroke-dashoffset" values="100;100;0;0;100" keyTimes="0;.2;.68;.9;1" dur="9s" repeatCount="indefinite" />
+    </use>
+  </g>
+  <g class="static-fallback">
+    <circle cx="638" cy="250" r="20" fill="none" class="signal-stroke" opacity=".55" />
+    <use href="#incidentTrace" fill="none" class="signal-stroke" stroke-width="2" opacity=".65" />
+  </g>
+
+  <text x="40" y="376" class="ink mono" font-size="17" font-weight="700">DEVOPS · KUBERNETES · INTERACTIVE</text>
+  <text x="680" y="376" text-anchor="end" class="signal mono" font-size="17" font-weight="700">ENTER ↗</text>
+  <rect x="1" y="1" width="718" height="398" rx="23" fill="none" class="faint-stroke" />
+</svg>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Production impact and engineering range</title>
+  <desc id="desc">Deployments improved from two hours to fifteen minutes, incident MTTR fell by sixty percent, and Kafka systems operated above one million messages per second. Additional signals show three clouds plus on-premises, twenty-two credentials, and twenty-six guided machine-learning builds.</desc>
+  <defs>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" class="grid-line" />
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="330" rx="28" /></clipPath>
+    <path id="mttrRoute" d="M483 226C530 218 559 205 589 188S643 165 724 154" />
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .bg { fill: #080A0C; }
+      .card { fill: #101316; }
+      .well { fill: #15191D; }
+      .ink { fill: #F3F0E8; }
+      .muted { fill: #89939D; }
+      .faint { stroke: #30363C; }
+      .grid-line { stroke: #1A2025; }
+      .signal { fill: #B8F34A; }
+      .signal-stroke { stroke: #B8F34A; }
+      .safety { fill: #FF6B35; }
+      .safety-stroke { stroke: #FF6B35; }
+      .route { animation: route 9s linear infinite; }
+      .pulse { animation: pulse 2.4s ease-out infinite; transform-origin: 1099px 39px; }
+      .static-fallback { display: none; }
+      @keyframes route { to { stroke-dashoffset: -76; } }
+      @keyframes pulse { 0% { transform: scale(.6); opacity: .75; } 78%, 100% { transform: scale(2.7); opacity: 0; } }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #F3F0E8; }
+        .card { fill: #E8E3D8; }
+        .well { fill: #DED8CA; }
+        .ink { fill: #111315; }
+        .muted { fill: #5F6870; }
+        .faint { stroke: #C8C0B1; }
+        .grid-line { stroke: #DDD7CB; }
+        .signal { fill: #456600; }
+        .signal-stroke { stroke: #456600; }
+        .safety { fill: #C7461D; }
+        .safety-stroke { stroke: #C7461D; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none !important; }
+        .route, .pulse { animation: none !important; }
+        .static-fallback { display: inline !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="330" rx="28" class="bg" />
+  <g clip-path="url(#frame)">
+    <rect x="0" y="0" width="1200" height="330" fill="url(#grid)" opacity=".5" />
+    <circle cx="1035" cy="40" r="150" fill="#B8F34A" opacity=".045" />
+  </g>
+
+  <text x="54" y="43" class="muted mono" font-size="12" font-weight="700" letter-spacing="2.2">FIELD MANUAL 02 / PRODUCTION SIGNALS</text>
+  <circle cx="1099" cy="39" r="4" class="signal" />
+  <circle cx="1099" cy="39" r="4" fill="none" class="signal-stroke pulse" />
+  <text x="1084" y="43" text-anchor="end" class="signal mono" font-size="11" font-weight="700" letter-spacing="1.4">MEASURED IMPACT</text>
+  <line x1="54" y1="65" x2="1146" y2="65" class="faint" />
+
+  <path d="M54 76H1146" fill="none" class="signal-stroke route" stroke-width="1.5" stroke-dasharray="4 15" opacity=".32" />
+
+  <g transform="translate(54 86)">
+    <rect width="346" height="176" rx="20" class="card" stroke="#30363C" />
+    <text x="20" y="28" class="muted mono" font-size="11" font-weight="700" letter-spacing="1.8">01 / DELIVERY VELOCITY</text>
+    <text x="20" y="83" class="ink" font-size="48" font-weight="700" letter-spacing="-1.8">8× faster</text>
+    <text x="20" y="109" class="muted mono" font-size="12" font-weight="700" letter-spacing="1.4">DEPLOYMENTS · 2H → 15M</text>
+    <rect x="20" y="126" width="306" height="34" rx="9" class="well" />
+    <text x="31" y="143" class="muted mono" font-size="8" font-weight="700">2H</text>
+    <line x1="56" y1="140" x2="302" y2="140" class="safety-stroke" stroke-width="5" stroke-linecap="round" opacity=".42" />
+    <text x="31" y="156" class="signal mono" font-size="8" font-weight="700">15M</text>
+    <line x1="56" y1="153" x2="87" y2="153" class="signal-stroke" stroke-width="5" stroke-linecap="round" />
+    <g class="motion">
+      <line x1="56" y1="153" x2="302" y2="153" class="signal-stroke" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 9" opacity=".46">
+        <animate attributeName="stroke-dashoffset" values="0;-52" dur="9s" repeatCount="indefinite" />
+      </line>
+      <circle cx="87" cy="153" r="4" class="signal" filter="url(#glow)">
+        <animate attributeName="cx" values="302;87;87;302" keyTimes="0;.30;.82;1" dur="9s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.04;.88;1" dur="9s" repeatCount="indefinite" />
+      </circle>
+    </g>
+  </g>
+
+  <g transform="translate(427 86)">
+    <rect width="346" height="176" rx="20" class="card" stroke="#30363C" />
+    <text x="20" y="28" class="muted mono" font-size="11" font-weight="700" letter-spacing="1.8">02 / RECOVERY</text>
+    <text x="20" y="83" class="ink" font-size="48" font-weight="700" letter-spacing="-1.8">60% lower</text>
+    <text x="20" y="109" class="muted mono" font-size="12" font-weight="700" letter-spacing="1.4">INCIDENT MTTR</text>
+    <rect x="20" y="126" width="306" height="34" rx="9" class="well" />
+    <path d="M36 153C83 150 112 144 142 138S215 130 313 134" fill="none" class="faint" stroke-width="2" />
+    <path d="M36 153C83 150 112 144 142 138S215 130 313 134" fill="none" class="signal-stroke" stroke-width="2.5" opacity=".78" />
+    <circle cx="313" cy="134" r="4" class="signal" />
+    <g class="motion">
+      <circle r="4.5" class="safety" filter="url(#glow)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.30;.36;.63;.69;1" dur="9s" repeatCount="indefinite" />
+        <animateMotion dur="9s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;.30;.69;1" calcMode="linear" path="M36 153C83 150 112 144 142 138S215 130 313 134" />
+      </circle>
+      <circle cx="313" cy="134" r="5" fill="none" class="signal-stroke">
+        <animate attributeName="r" values="5;5;5;18;24;5" keyTimes="0;.60;.68;.74;.80;1" dur="9s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0;.8;.45;0;0" keyTimes="0;.60;.68;.74;.82;1" dur="9s" repeatCount="indefinite" />
+      </circle>
+    </g>
+  </g>
+
+  <g transform="translate(800 86)">
+    <rect width="346" height="176" rx="20" class="card" stroke="#30363C" />
+    <text x="20" y="28" class="muted mono" font-size="11" font-weight="700" letter-spacing="1.8">03 / STREAMING</text>
+    <text x="20" y="83" class="ink" font-size="48" font-weight="700" letter-spacing="-1.8">1M+ / sec</text>
+    <text x="20" y="109" class="muted mono" font-size="12" font-weight="700" letter-spacing="1.4">KAFKA MESSAGES OPERATED</text>
+    <rect x="20" y="126" width="306" height="34" rx="9" class="well" />
+    <g class="faint" stroke-width="1.5">
+      <line x1="34" y1="136" x2="312" y2="136" />
+      <line x1="34" y1="143" x2="312" y2="143" />
+      <line x1="34" y1="150" x2="312" y2="150" />
+    </g>
+    <g class="signal">
+      <rect x="66" y="133" width="13" height="6" rx="3" opacity=".55" />
+      <rect x="158" y="140" width="13" height="6" rx="3" opacity=".72" />
+      <rect x="258" y="147" width="13" height="6" rx="3" />
+    </g>
+    <g class="motion signal" filter="url(#glow)">
+      <rect x="34" y="133" width="12" height="6" rx="3"><animate attributeName="x" values="34;300;34" keyTimes="0;.84;1" dur="3.8s" repeatCount="indefinite" /></rect>
+      <rect x="34" y="140" width="12" height="6" rx="3"><animate attributeName="x" values="34;300;34" keyTimes="0;.84;1" dur="4.2s" begin=".35s" repeatCount="indefinite" /></rect>
+      <rect x="34" y="147" width="12" height="6" rx="3"><animate attributeName="x" values="34;300;34" keyTimes="0;.84;1" dur="4.6s" begin=".7s" repeatCount="indefinite" /></rect>
+    </g>
+  </g>
+
+  <g transform="translate(54 294)">
+    <text x="0" y="0" class="ink mono" font-size="12" font-weight="700">3 CLOUDS + ON-PREM</text>
+    <circle cx="190" cy="-4" r="3" class="signal" />
+    <text x="218" y="0" class="ink mono" font-size="12" font-weight="700">22 PROFESSIONAL CREDENTIALS</text>
+    <circle cx="486" cy="-4" r="3" class="signal" />
+    <text x="514" y="0" class="ink mono" font-size="12" font-weight="700">26 GUIDED ML BUILDS</text>
+    <text x="1092" y="0" text-anchor="end" class="muted mono" font-size="10" letter-spacing="1.2">PLATFORM × RELIABILITY × AI</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="328" rx="27" fill="none" class="faint" />
+</svg>

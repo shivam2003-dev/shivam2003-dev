@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">LokSetu — civic intelligence</title>
+  <desc id="desc">Citizen, official, and public signals converge into ranked constituency priorities and action workflows.</desc>
+  <defs>
+    <filter id="signalGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+    <pattern id="microGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" class="grid-line" stroke-width="1" />
+    </pattern>
+    <clipPath id="frameClip"><rect width="1200" height="280" rx="24" /></clipPath>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      .bg { fill: #080A0C; }
+      .panel { fill: #101316; }
+      .panel-2 { fill: #15191D; }
+      .ink { fill: #F3F0E8; }
+      .muted { fill: #89939D; }
+      .faint-stroke { stroke: #30363C; }
+      .node-stroke { stroke: #4A535C; }
+      .grid-line { stroke: #1A2025; }
+      .signal { fill: #B8F34A; }
+      .signal-stroke { stroke: #B8F34A; }
+      .safety { fill: #FF6B35; }
+      .route-flow { animation: routeFlow 2.5s linear infinite; }
+      .static-fallback { display: none; }
+      @keyframes routeFlow { to { stroke-dashoffset: -28; } }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #F3F0E8; }
+        .panel { fill: #E8E3D8; }
+        .panel-2 { fill: #DED8CA; }
+        .ink { fill: #111315; }
+        .muted { fill: #5F6870; }
+        .faint-stroke { stroke: #C8C0B1; }
+        .node-stroke { stroke: #9E978A; }
+        .grid-line { stroke: #DDD7CB; }
+        .signal { fill: #456600; }
+        .signal-stroke { stroke: #456600; }
+        .safety { fill: #C7461D; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none !important; }
+        .route-flow { animation: none !important; }
+        .static-fallback { display: inline !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="280" rx="24" class="bg" />
+  <g clip-path="url(#frameClip)">
+    <rect x="706" y="20" width="468" height="240" rx="22" fill="url(#microGrid)" />
+    <circle cx="1110" cy="40" r="120" class="signal" opacity=".035" />
+  </g>
+
+  <g transform="translate(54 42)">
+    <text class="signal mono" font-size="12" font-weight="700" letter-spacing="2.1">01 / CIVIC INTELLIGENCE</text>
+    <text y="52" class="ink" font-size="36" font-weight="700" letter-spacing="-1.2">LokSetu</text>
+    <text y="90" class="muted" font-size="18">Citizen and public signals become ranked</text>
+    <text y="116" class="muted" font-size="18">constituency priorities and action workflows.</text>
+
+    <g transform="translate(0 158)">
+      <rect width="56" height="28" rx="14" class="panel faint-stroke" />
+      <text x="28" y="18" text-anchor="middle" class="ink mono" font-size="11" font-weight="700">GCP</text>
+      <rect x="66" width="56" height="28" rx="14" class="panel faint-stroke" />
+      <text x="94" y="18" text-anchor="middle" class="ink mono" font-size="11" font-weight="700">RAG</text>
+      <rect x="132" width="104" height="28" rx="14" class="panel faint-stroke" />
+      <text x="184" y="18" text-anchor="middle" class="ink mono" font-size="11" font-weight="700">TYPESCRIPT</text>
+    </g>
+  </g>
+
+  <g>
+    <rect x="720" y="34" width="426" height="212" rx="18" class="panel faint-stroke" />
+    <text x="744" y="61" class="muted mono" font-size="10" font-weight="700" letter-spacing="1.6">SIGNALS → RANKED NEEDS → ACTION</text>
+    <circle cx="1118" cy="57" r="4" class="signal" />
+
+    <g fill="none" stroke-linecap="round">
+      <path d="M750 91H810Q844 91 866 112L900 139" class="faint-stroke" stroke-width="2" />
+      <path d="M750 139H900" class="faint-stroke" stroke-width="2" />
+      <path d="M750 187H810Q844 187 866 166L900 139" class="faint-stroke" stroke-width="2" />
+      <path d="M750 91H810Q844 91 866 112L900 139" class="signal-stroke route-flow" stroke-width="1" stroke-dasharray="4 10" opacity=".28" />
+      <path d="M750 139H900" class="signal-stroke route-flow" stroke-width="1" stroke-dasharray="4 10" opacity=".28" />
+      <path d="M750 187H810Q844 187 866 166L900 139" class="signal-stroke route-flow" stroke-width="1" stroke-dasharray="4 10" opacity=".28" />
+    </g>
+
+    <g>
+      <circle cx="750" cy="91" r="7" class="panel-2 node-stroke" />
+      <circle cx="750" cy="139" r="7" class="panel-2 node-stroke" />
+      <circle cx="750" cy="187" r="7" class="panel-2 node-stroke" />
+      <text x="768" y="94" class="muted mono" font-size="9">CITIZENS</text>
+      <text x="768" y="142" class="muted mono" font-size="9">DATA</text>
+      <text x="768" y="190" class="muted mono" font-size="9">PUBLIC</text>
+    </g>
+
+    <rect x="900" y="112" width="76" height="54" rx="12" class="panel-2 node-stroke" />
+    <text x="938" y="135" text-anchor="middle" class="signal mono" font-size="9" font-weight="700">RANK</text>
+    <text x="938" y="151" text-anchor="middle" class="ink mono" font-size="9">ENGINE</text>
+
+    <g fill="none" class="faint-stroke" stroke-width="2" stroke-linecap="round">
+      <path d="M976 139H990Q1002 139 1002 112V94" />
+      <path d="M976 139H1002" />
+      <path d="M976 139H990Q1002 139 1002 166V184" />
+    </g>
+    <g>
+      <rect x="1002" y="84" width="116" height="20" rx="5" class="panel-2 node-stroke" />
+      <rect x="1002" y="129" width="88" height="20" rx="5" class="panel-2 node-stroke" />
+      <rect x="1002" y="174" width="62" height="20" rx="5" class="panel-2 node-stroke" />
+      <rect x="1002" y="84" width="116" height="20" rx="5" class="signal" opacity=".12" />
+      <rect x="1002" y="129" width="88" height="20" rx="5" class="signal" opacity=".08" />
+      <rect x="1002" y="174" width="62" height="20" rx="5" class="signal" opacity=".06" />
+      <text x="1012" y="98" class="ink mono" font-size="9" font-weight="700">01</text>
+      <text x="1012" y="143" class="ink mono" font-size="9" font-weight="700">02</text>
+      <text x="1012" y="188" class="ink mono" font-size="9" font-weight="700">03</text>
+    </g>
+
+    <g class="motion">
+      <circle r="4" class="safety" filter="url(#signalGlow)" opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.25;.34;1" dur="9s" repeatCount="indefinite" />
+        <animateMotion path="M750 91H810Q844 91 866 112L900 139" dur="9s" repeatCount="indefinite" />
+      </circle>
+      <circle r="4" class="signal" filter="url(#signalGlow)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.06;.09;.29;.38;1" dur="9s" repeatCount="indefinite" />
+        <animateMotion path="M750 139H900" dur="9s" repeatCount="indefinite" />
+      </circle>
+      <circle r="4" class="safety" filter="url(#signalGlow)" opacity="0">
+        <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.12;.15;.32;.41;1" dur="9s" repeatCount="indefinite" />
+        <animateMotion path="M750 187H810Q844 187 866 166L900 139" dur="9s" repeatCount="indefinite" />
+      </circle>
+      <rect x="896" y="108" width="84" height="62" rx="15" fill="none" class="signal-stroke" opacity="0">
+        <animate attributeName="opacity" values="0;0;.75;0;0" keyTimes="0;.34;.43;.54;1" dur="9s" repeatCount="indefinite" />
+      </rect>
+      <rect x="1002" y="84" width="0" height="20" rx="5" class="signal" opacity=".55">
+        <animate attributeName="width" values="0;0;116;116;0" keyTimes="0;.5;.62;.82;1" dur="9s" repeatCount="indefinite" />
+      </rect>
+      <rect x="1002" y="129" width="0" height="20" rx="5" class="signal" opacity=".34">
+        <animate attributeName="width" values="0;0;88;88;0" keyTimes="0;.54;.66;.82;1" dur="9s" repeatCount="indefinite" />
+      </rect>
+      <rect x="1002" y="174" width="0" height="20" rx="5" class="signal" opacity=".24">
+        <animate attributeName="width" values="0;0;62;62;0" keyTimes="0;.58;.7;.82;1" dur="9s" repeatCount="indefinite" />
+      </rect>
+      <circle cx="1118" cy="94" r="7" fill="none" class="signal-stroke" opacity="0">
+        <animate attributeName="r" values="7;22" dur="9s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0;.7;0;0" keyTimes="0;.72;.78;.9;1" dur="9s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    <g class="static-fallback">
+      <circle cx="1118" cy="94" r="5" class="signal" />
+      <rect x="896" y="108" width="84" height="62" rx="15" fill="none" class="signal-stroke" opacity=".55" />
+    </g>
+  </g>
+
+  <text x="1146" y="265" text-anchor="end" class="signal mono" font-size="11" font-weight="700" letter-spacing="1.1">EXPLORE SYSTEM ↗</text>
+  <rect x="1" y="1" width="1198" height="278" rx="23" fill="none" class="faint-stroke" />
+</svg>
