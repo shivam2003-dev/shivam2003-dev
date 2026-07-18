@@ -76,63 +76,25 @@
 
 <br />
 
-## Operating range
-
-<details>
-  <summary><b>Open the capability map</b> · platform engineering, reliability, data, AI, and delivery security</summary>
-  <br />
-
-**Run dependable platforms** — GCP, AWS, OCI, on-premises infrastructure, Kubernetes, Docker, Terraform, Ansible, GitHub Actions, cloud networking, and Python/Go automation.
-
-**Make reality observable** — Zabbix, SigNoz, PagerDuty, eBPF troubleshooting, SLI/SLO thinking, incident response, Jira workflows, and Vault-backed secrets.
-
-**Operate data and AI systems** — PostgreSQL internals and replication, Redis, Apache Cassandra, LLMOps, RAG, NLP, reinforcement learning with GRPO, distributed inference, and GPU scheduling.
-
-**Secure the delivery path** — GitHub Actions, CodePipeline, Kyverno, dependency and supply-chain security, policy as code, SPIFFE, and OpenFGA.
-
-<sub>CURRENT FRONTIER · WASM-powered containers · vLLM / llm-d · agentic AI security · AI infrastructure on Kubernetes</sub>
-
-</details>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/career-mobile.svg" />
+  <img src="./assets/career.svg" width="100%" alt="Operating range, experience from Gemini Ambassador through DevOps Engineer II at Kimbal, education at BITS Pilani and Panjab University, HackMIT mentorship, and National Service Scheme membership." />
+</picture>
 
 <br />
 
-## Experience
+<a href="https://www.credly.com/badges/08cdd1c7-db2c-4661-99ab-f4d3bda04bc2">
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/credential-mobile.svg" />
+    <img src="./assets/credential.svg" width="100%" alt="Verified Google Cloud Associate Cloud Engineer certification, valid July 2026 through July 2029, within a twenty-two credential archive." />
+  </picture>
+</a>
 
-| Period | Role | Focus |
-| --- | --- | --- |
-| **Jun 2025 — now** | **DevOps Engineer II · Kimbal** | Multi-cloud infrastructure, eBPF troubleshooting, observability, MLOps, and secure platform operations |
-| Jun 2024 — Jun 2025 | DevOps Engineer · Kimbal | Kubernetes platforms, automation, reliability, data infrastructure, and cloud delivery |
-| Jan 2024 — Jun 2024 | DevOps Intern · Kimbal | Monitoring, databases, operational automation, and production support |
-| Jan 2022 — Mar 2023 | Gemini Ambassador Program · Gemini Solutions | Community, technology advocacy, and early industry exposure |
-
-<br />
-
-## Education & community
-
-- **M.Tech, Artificial Intelligence & Machine Learning** — BITS Pilani, 2025–2027
-- **B.E., Computer Science & Engineering** — Panjab University, 2020–2024 · CGPA 8.17/10
-- **Mentor, HackMIT '24** — Massachusetts Institute of Technology, September 2024
-- **Member, National Service Scheme** — January 2021–January 2024
-
-<br />
-
-## Verified credential
-
-<table>
-  <tr>
-    <td width="112" align="center">
-      <a href="https://www.credly.com/badges/08cdd1c7-db2c-4661-99ab-f4d3bda04bc2">
-        <img src="https://images.credly.com/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/linkedin_thumb_image.png" width="88" alt="Google Cloud Associate Cloud Engineer credential" />
-      </a>
-    </td>
-    <td>
-      <sub>ISSUED BY GOOGLE CLOUD</sub>
-      <h3>Associate Cloud Engineer Certification</h3>
-      <p>Verified skills in deploying applications, monitoring operations, and managing enterprise solutions on Google Cloud.</p>
-      <a href="https://www.credly.com/badges/08cdd1c7-db2c-4661-99ab-f4d3bda04bc2"><b>Verify on Credly →</b></a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://www.credly.com/badges/08cdd1c7-db2c-4661-99ab-f4d3bda04bc2"><b>Verify on Credly ↗</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://about.shivam2003.com/"><b>View professional profile ↗</b></a>
+</p>
 
 <details>
   <summary><b>View the complete credential archive · 22 certifications</b></summary>
@@ -176,24 +138,17 @@
 
 <br />
 
-## Field notes from the systems frontier
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/notes-contact-mobile.svg" />
+  <img src="./assets/notes-contact.svg" width="100%" alt="The Secure Pipeline and cvam.sight field notes, followed by an invitation to discuss platforms, applied AI, and technical learning by email or LinkedIn." />
+</picture>
 
-I publish **The Secure Pipeline**, a DevSecOps newsletter about software supply-chain security and CI/CD automation. At **[cvam.sight](https://shivam2003.com/)**, I unpack cloud platforms, Kubernetes, inference engineering, coding agents, and research papers from first principles—then reconnect them to the realities of shipping and operating software.
-
-**[Read the field notes →](https://shivam2003.com/)** · **[Follow The Secure Pipeline →](https://www.linkedin.com/in/shivam-kumar2003/)**
-
-<br />
-
----
-
-<div align="center">
-  <h2>Building a platform, an applied-AI product, or a technical learning experience?</h2>
-  <p><b>Let's compare notes.</b></p>
-  <p>
-    <a href="mailto:shivam.sk2003@gmail.com"><b>Email me ↗</b></a>
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/shivam-kumar2003/"><b>Connect on LinkedIn ↗</b></a>
-  </p>
-  <br />
-  <sub>DEVOPS ENGINEER II AT KIMBAL · ARTIFICIAL INTELLIGENCE &amp; ROBOTICS · DELHI, INDIA</sub>
-</div>
+<p align="center">
+  <a href="https://shivam2003.com/"><b>Read the field notes ↗</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/shivam-kumar2003/"><b>Follow The Secure Pipeline ↗</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:shivam.sk2003@gmail.com"><b>Email me ↗</b></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/shivam-kumar2003/"><b>Connect on LinkedIn ↗</b></a>
+</p>
