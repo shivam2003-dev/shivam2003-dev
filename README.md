@@ -78,7 +78,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/career-mobile.svg" />
-  <img src="./assets/career.svg" width="100%" alt="Operating range, experience from Gemini Ambassador through DevOps Engineer II at Kimbal, education at BITS Pilani and Panjab University, HackMIT mentorship, and National Service Scheme membership." />
+  <img src="./assets/career.svg?v=20260719-2" width="100%" alt="Operating range, experience from Gemini Ambassador through DevOps Engineer II at Kimbal, education at BITS Pilani and Panjab University, HackMIT mentorship, and National Service Scheme membership." />
 </picture>
 
 <br />
